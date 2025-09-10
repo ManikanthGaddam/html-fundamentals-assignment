@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Student Management Dashboard">
+  <title>Students Dashboard</title>
+</head>
+<body>
+  <header>
+    <h1>Student Management Dashboard</h1>
+  </header>
+
+  <main>
+    <table border="1">
+      <caption>Computer Science Students - Batch 2024</caption>
+      <thead>
+        <tr>
+          <th scope="col">Student ID</th>
+          <th scope="col">Student Name</th>
+          <th scope="col" colspan="2">Course Details</th>
+          <th scope="col" colspan="2">Contact Information</th>
+          <th scope="col">Semester</th>
+          <th scope="col">GPA</th>
+          <th scope="col">Status</th>
+        </tr>
+        <tr>
+          <th></th><th></th>
+          <th>Course Name</th><th>Credits</th>
+          <th>Email</th><th>Phone</th>
+          <th></th><th></th><th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>101</td>
+          <td> Virat</td>
+          <td rowspan="2">Data Structures</td>
+          <td rowspan="2">3</td>
+          <td rowspan="2">alice@example.com</td>
+          <td rowspan="2">9876543210</td>
+          <td>5</td>
+          <td>3.8</td>
+          <td>Active</td>
+        </tr>
+        <tr>
+          <td>101</td>
+          <td>Virat</td>
+          <td>6</td>
+          <td>3.9</td>
+          <td>Active</td>
+        </tr>
+        <tr>
+          <td>102</td>
+          <td>Rohit</td>
+          <td>Operating Systems</td>
+          <td>4</td>
+          <td>bob@example.com</td>
+          <td>9123456780</td>
+          <td>6</td>
+          <td>3.5</td>
+          <td>Inactive</td>
+        </tr>
+        <tr>
+          <td>103</td>
+          <td>Dhoni</td>
+          <td>Database Systems</td>
+          <td>3</td>
+          <td>charlie@example.com</td>
+          <td>9988776655</td>
+          <td>4</td>
+          <td>3.2</td>
+          <td>Active</td>
+        </tr>
+        <tr>
+          <td>104</td>
+          <td>Bumrah</td>
+          <td>Artificial Intelligence</td>
+          <td>4</td>
+          <td>diana@example.com</td>
+          <td>9911223344</td>
+          <td>7</td>
+          <td>3.9</td>
+          <td>Active</td>
+        </tr>
+        <tr>
+          <td>105</td>
+          <td>Sachin</td>
+          <td>Software Engineering</td>
+          <td>3</td>
+          <td>edward@example.com</td>
+          <td>9098765432</td>
+          <td>8</td>
+          <td>2.9</td>
+          <td>Inactive</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="9">Total Students: 5 | Average GPA: 3.44 | Active: 3 | Inactive: 2</td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <section>
+      <h2>Summary</h2>
+      <p>This dashboard displays student records including their GPA, semester, and course details. 
+        A total of 5 students are enrolled in Batch 2024, with 3 active students and 2 inactive ones.</p>
+    </section>
+  </main>
+</body>
+</html>
